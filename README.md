@@ -1,8 +1,8 @@
 # Basketball_Stats_Tool
 
 ## The goal
--To take a list of data (in this case basketball players) and turn it into a list of balanced teams in an easy to read application.
--To learn and practice iterating through and cleaning data without needing modification.
+  - To take a list of data (in this case basketball players) and turn it into a list of balanced teams in an easy to read application.
+  - To learn and practice iterating through and cleaning data without needing modification.
 
 
 
