@@ -2,7 +2,7 @@
 
 ## The Goals
   - To take a list of data (in this case basketball players) and turn it into a list of balanced teams in an easy to read application.
-  - To learn the practice of iterating through and cleaning data without needing modification.
+  - To learn the practice of iterating through and cleaning data without needing modification, then presenting it in a ledgable way.
 
 
 
