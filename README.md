@@ -27,3 +27,6 @@ The other very useful skill i was able to utilize was in lines like "player["gua
   - The sets and dictionaries trainings we received for me were hard to follow so i found myself frequently referencing the materials and cheat sheets.
     - It would be nice to see an intermediate project in these modules the way Craig Dennis does the grocery list application at the end of introducing lists.
     - That project really helped me with learning to pick apart these projects and adding more complexity in more systematic manner.
+  - This project felt much more constricted than the number guessing game.
+    - The guessing game there was a lot of opportunity for creative freedom and experimentation, but this telt more prescripted.
+    - 
