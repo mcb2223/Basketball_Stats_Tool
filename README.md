@@ -1,4 +1,4 @@
-# Basketball_Stats_Tool
+# Basketball Stats Tool
 
 ## The Goals
   - To take a list of data (in this case basketball players) and turn it into a list of balanced teams in an easy to read application.
@@ -26,7 +26,13 @@ The other very useful skill i was able to utilize was in lines like "player["gua
   - This project was exponetially harder for me than the number guessing game.
   - The sets and dictionaries trainings we received for me were hard to follow so i found myself frequently referencing the materials and cheat sheets.
     - It would be nice to see an intermediate project in these modules the way Craig Dennis does the grocery list application at the end of introducing lists.
+      - i truely appreciate how he broke it into tiny bites to try a few lines at a time.
     - That project really helped me with learning to pick apart these projects and adding more complexity in more systematic manner.
-  - This project felt much more constricted than the number guessing game.
-    - The guessing game there was a lot of opportunity for creative freedom and experimentation, but this felt more prescribed.
-    - 
+  - This project felt much more prescribed than the number guessing game.
+    - The guessing game there felt like there was a lot of opportunity for creative freedom and experimentation.
+    - I was able to reference my guessing game to help me build the interactive part of this project.
+  - this helped me get a lot more used to using MS Studio Code.
+    - The best feature of using the IDE how i have it set up is when you enter a variable wrong it immediately shows  that it is not matching up with any variables or functions.
+  - This project was proof you need to just take little bites of the project and put it together. 
+    - This was a little harder to run the small bites so there was a lot of building before i could truely run something.
+    - Once i got a lot of the code written, i threw some dummy variables where i knew i could get away with it, just to make sure everything up to that point.
