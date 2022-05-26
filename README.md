@@ -35,4 +35,5 @@ The other very useful skill i was able to utilize was in lines like "player["gua
     - The best feature of using the IDE how i have it set up is when you enter a variable wrong it immediately shows  that it is not matching up with any variables or functions.
   - This project was proof you need to just take little bites of the project and put it together. 
     - This was a little harder to run the small bites so there was a lot of building before i could truely run something.
-    - Once i got a lot of the code written, i threw some dummy variables where i knew i could get away with it, just to make sure everything up to that point.
+    - Once i would get some of the code written, i threw some dummy values where i knew i could get away with it, just to make sure everything up to that point worked.
+  - I made a lot of dumb miststakes in the process of writing this code. I was often forgetting parens when writing and would end up chasing my tail trying to figure out what was wrong, just for me to realize i forgot a paren.
