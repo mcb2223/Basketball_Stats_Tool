@@ -18,9 +18,7 @@ What i want out of my README files:
   - I first moved the criteria for the project into an excel spreadsheet that i could easily read and have up on my second monitor when working.
   - I got a refresher on Dunder Main, including the incredibly helpful workshop through Treehouse.
     - Where this was number two on the criteria, i want to make sure i had an understanding of what this actually did.
-  - Pulled up the code from cleaning data challange that we did right before the project came up, so i could rewrite manipulate that to meet what i needed.
-
-
+  - Pulled up the code from cleaning data challange that we did right before the project came up, so i could use that as a reference to what i needed.
 
 ## Reflections
   - This project was exponetially harder for me than the number guessing game.
@@ -28,6 +26,7 @@ What i want out of my README files:
   - This project felt much more prescribed than the number guessing game.
     - The guessing game there felt like there was a lot of opportunity for creative freedom and experimentation.
     - I was able to reference my guessing game to help me build the interactive part of this project.
+    - This part i was much more comfortable building overall.
   - This helped me get a lot more used to using MS Studio Code.
     - The best feature of using the IDE how i have it set up is when you enter a variable wrong it immediately shows that it is not matching up with any variables or functions.
     - It is very nice being able to auto-complete a variable or function.
