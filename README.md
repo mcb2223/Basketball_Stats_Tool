@@ -3,8 +3,16 @@
 ## The Goals
   - To take a list of data (in this case basketball players) and turn it into a list of balanced teams in an easy to read application.
   - To learn the practice of iterating through and cleaning data without needing modification, then presenting it in a ledgable way.
+  
   -  Practice dictionaries, sets, lists, and all of the other groupings that confuse me.
 
+## A separate note (to myself) about these README files going forward.
+
+- I am going start typing these read me files as i do the code and i dont want them to feel like i am doing them for the project, I want to do them for me.
+What i want out of my README files:
+    - To use these to show my progress to myself.
+    - To have notes for what I was doing wrong.
+    - To have notes about what i felt i did well or liked. 
 
 ## Methodology
   - I first moved the criteria for the project into an excel spreadsheet that i could easily read and have up on my second monitor when working.
@@ -22,6 +30,8 @@
     - I was able to reference my guessing game to help me build the interactive part of this project.
   - This helped me get a lot more used to using MS Studio Code.
     - The best feature of using the IDE how i have it set up is when you enter a variable wrong it immediately shows that it is not matching up with any variables or functions.
+    - It is very nice being able to auto-complete a variable or function.
+    - I also enjoy having my paren and my quotes auto completed.
   - This project was proof you need to just take little bites of the project and put it together. 
     - This was a little harder to run the small bites so there was a lot of building before i could truely run something.
     - Once i would get some of the code written, i threw some dummy values where i knew i could get away with it, just to make sure everything up to that point worked.
