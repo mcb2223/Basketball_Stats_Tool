@@ -4,9 +4,12 @@ import constants
 from copy import deepcopy
 import sys
 
+
 teams=deepcopy(constants.TEAMS)
 players=deepcopy(constants.PLAYERS)
-team_name= "Team name: "
+team_name= """
+
+Team name: """
 spacer = "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-"
 exit_message = "Exiting Application. Thank you for visiting!"
 experienced=[]
@@ -28,7 +31,6 @@ def clean_data():
             player["experience"] = False
             not_experienced.append(player)
     return not_experienced, experienced
-
 
 def team_balancer():
     exp_per_team= int(len(experienced))/len(teams)
@@ -63,29 +65,35 @@ def console_menu():
     print("-_-_-_-_- MENU -_-_-_-_-")
     print("""
         Options:
-Enter=> A) Team Stats
-Enter=> B) Exit
+    A) Team Stats
+    B) Exit
     """)
     options= input("Please select an Option: ")
     while True:
         try:
             if options.upper() == "A":
-                print("Select a Team to display their stats.")
-                print("A) Panthers")
-                print("B) Bandits")
-                print("C) Warriors")
-                print("D) Exit Program")
+                print("""
+Select a Team to display their stats.
+                      """)
+                print("""    A) Panthers
+    B) Bandits
+    C) Warriors
+    D) Exit Program""")
                 break
             elif options.upper()== "B":
                 print(exit_message)
                 quit()
-                raise ValueError()
+            else:
+                print('Not recognised as a valid option, please enter a valid letter value')
+                console_menu()
+                raise ValueError
         except ValueError as err:
             print('Not recognised as a valid option, please enter a valid letter value')
             return console_menu()
     while True:
         try:
-            team= input("Enter the letter of which team you would like to analyze ")
+            team= input("""
+Enter the letter of which team you would like to analyze """)
             if team.upper()== "A":
                 print(team_name + team_1)
                 print(spacer)
@@ -104,9 +112,13 @@ Enter=> B) Exit
             elif team == "D":
                 print(exit_message)
                 quit()
-            raise ValueError()
+            else:
+                print('Not recognised as a valid option, please enter a valid letter value')
+                console_menu()
+                raise ValueError
         except ValueError as err:
             print('Not recognised as a valid option, please enter a valid letter value')
+            console_menu()
         return console_menu()
 
 
@@ -115,7 +127,7 @@ def player_stats(team):
     guardians=[]
     height = [player["height"] for player in team]
     for player in team:
-        guardian=player["guardians"]
+        guardian=str(player["guardians"])
         guardians.append(guardian)
     height_avg= round(sum(height)/len(team),1)
     print(f"""
@@ -124,12 +136,15 @@ def player_stats(team):
         Total inexperienced: {int(len(not_experienced)/ len(teams))}
         Average height: {float(height_avg)}
     """)
-    print("Player names: " + ", ".join(names))
-    print("Guardian Names: " + ", ".join(guardians))
+    print("Player names: ")
+    print( "     "+", ".join(names))
+    print("Guardian Names: ")  
+    print( "     "+", ".join(guardians))
 
 
 def other_teams():
-    change_team= input("Would you like to analyze another team? Y or N ")
+    change_team= input("""
+Would you like to analyze another team? Y or N """)
     if change_team.upper()== "Y" :
         print("Returning to menu. ")
         return console_menu()
