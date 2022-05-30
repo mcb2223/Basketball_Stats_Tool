@@ -39,3 +39,10 @@ What i want out of my README files:
     - This is how i did the player stats, i initially had it broken into several functions, then once i liked the formatting and how it worked i put them all into one.
   - The quit() method is extremely useful for getting the code to end when using stacked funtions like this.  
     - I do see how it will not fit in all code that you need to loop through or maybe jump back a level, but where i had several points where i needed to fully quit, this function was incredibly efficient.
+  - I am stil working to resolve IT issues around Slack but i was able to bounce my code off of Rachel Johnson through email.
+    - They went through and sent me the grading rubic with notes.
+    - I was only missing two areas for the meets expectations criteria, 
+      - I had an issue where my code would break if a wrong value was put in it would crash in a try/except loop.
+        - The "except" wasnt catching my error, i was able to put in an "else" that caught any issues.
+      - The guardians wasnt a list of strings, it was storing as a list of dictionaries. 
+        - I knew this was a simple fix, i just had to figure out where i had to wrap the dictionary in str().       
