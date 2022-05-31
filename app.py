@@ -1,8 +1,10 @@
 from ntpath import join
+from operator import index
 from re import A
 import constants
 from copy import deepcopy
 import sys
+
 
 
 teams=deepcopy(constants.TEAMS)
@@ -32,10 +34,14 @@ def clean_data():
             not_experienced.append(player)
     return not_experienced, experienced
 
+
+
+
 def team_balancer():
     exp_per_team= int(len(experienced))/len(teams)
     not_exp_per_team= int(len(not_experienced))/len(teams)
     tot_per_team= exp_per_team+not_exp_per_team
+
     for player in experienced:
         if len (bandits)<exp_per_team:
             bandits.append(player)
@@ -50,7 +56,11 @@ def team_balancer():
             panthers.append(player)
         elif len(warriors) < tot_per_team:
             warriors.append(player)
+    
     return bandits, panthers, warriors
+    
+    
+        
 
 
 def console_menu():
@@ -127,8 +137,8 @@ def player_stats(team):
     guardians=[]
     height = [player["height"] for player in team]
     for player in team:
-        guardian=str(player["guardians"])
-        guardians.append(guardian)
+        guardian=player["guardians"]
+        guardians.append(str(guardian))
     height_avg= round(sum(height)/len(team),1)
     print(f"""
         Total players: {int(len(constants.PLAYERS) / len(constants.TEAMS))}
