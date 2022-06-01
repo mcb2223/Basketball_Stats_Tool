@@ -98,12 +98,10 @@ def team_balancer():
             warriors["inexperienced"] += 1
             warriors["player_heights"].append(player["height"])
             warriors["guardians"].append(player["guardians"])
-            
+                
     team_cleaner(panthers)
     team_cleaner(bandits)
     team_cleaner(warriors)
-
-    
 
 
 #additional stuff here to order players by height
@@ -112,15 +110,11 @@ def team_balancer():
     #find shortest
     #variable that contains lowest height or name or index, then after loop pop him into ordered list.    
 
-    
     return bandits, panthers, warriors
     
 
 
-
 def console_menu():
-    
-    
     team_1= "Panthers"
     team_2= "Bandits"
     team_3= "Warriors"
@@ -194,6 +188,7 @@ def team_cleaner(team):
     team["guardians"] = ", ".join([", ".join(x) for x in team["guardians"]])
     team["average_height"]=sum(bandits["player_heights"])/len(team["player_heights"]) 
 
+
 def player_stats(team):
     players= team["players"]
     guardians= team["guardians"]
@@ -206,9 +201,6 @@ def player_stats(team):
     print(f"      {players}")
     print("Guardian Names: ")  
     print(f"      {guardians}")
-    
-    
-
 
 
 def other_teams():
