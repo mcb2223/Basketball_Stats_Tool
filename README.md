@@ -45,4 +45,4 @@ What i want out of my README files:
       - I had an issue where my code would break if a wrong value was put in it would crash in a try/except loop.
         - The "except" wasnt catching my error, i was able to put in an "else" that caught any issues.
       - The guardians wasnt a list of strings, it was storing as a list of dictionaries. 
-        - I knew this was a simple fix, i just had to figure out where i had to wrap the dictionary in str().       
+        - This was much harder than expected. Rachel sent me a video of my code showing me how to correct it.   
