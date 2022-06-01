@@ -188,7 +188,7 @@ Enter the letter of which team you would like to analyze """)
             console_menu()
         return console_menu()
 
-
+# method used in team_cleaner gotten from https://stackoverflow.com/questions/22105741/converting-a-list-of-lists-into-a-list-of-strings-python by mhlester
 def team_cleaner(team):
     team["players"] = ", ".join([", ".join(x) for x in team["players"]])
     team["guardians"] = ", ".join([", ".join(x) for x in team["guardians"]])
